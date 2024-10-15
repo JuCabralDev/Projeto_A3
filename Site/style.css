@@ -1,0 +1,123 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #333;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.agendar button {
+    padding: 10px 20px;
+    background-color: #f39c12;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.agendar button:hover {
+    background-color: #e67e22;
+}
+
+/* Hero Section Styling */
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero-text p {
+    font-size: 24px;
+}
+
+/* Footer / Gallery Section Styling */
+footer {
+    background-color: #f1f1f1;
+    padding: 50px 0;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-block {
+    text-align: center;
+    width: 30%;
+}
+
+.image-block img {
+    width: 100%;
+    height: auto;
+}
+
+.image-text h2 {
+    margin-top: 15px;
+    font-size: 24px;
+}
+
+.image-text p {
+    margin: 10px 0;
+}
+
+.image-text button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.image-text button:hover {
+    background-color: #2980b9;
+}
